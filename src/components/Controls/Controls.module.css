@@ -1,0 +1,23 @@
+.title {
+}
+.buttonList {
+  justify-content: center;
+  display: flex;
+}
+.button {
+  padding: 8px;
+  width: 70px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(139, 139, 139);
+  transform: background-color box-shadow 500ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  border: none;
+}
+.button:hover {
+  background-color: blue;
+  box-shadow: 0px 0px 10px 10px #1881ba;
+}
+.button:not(:first-child) {
+  margin-left: 20px;
+}
